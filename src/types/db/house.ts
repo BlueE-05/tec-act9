@@ -8,11 +8,12 @@ export interface House {
     rating: number;
     createdAt: Date;
     updatedAt: Date;
+    type: string;
 }
 
 interface Size {
-    constructionSize: number;
-    lotSize: number;
+    constructionArea: number;
+    terrainArea: number;
     bedrooms: number;
     bathrooms: number;
     garage: boolean;
